@@ -1,0 +1,75 @@
+.logo{
+    height: 30%;
+    width: 30%;
+    margin-left: -300px;
+}
+#about{
+    margin: 10% 8% 0px 8%;
+}
+.section-head{
+    text-align: center;
+}
+.main-head{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.par{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+#contact{
+    margin:  8%;
+}
+.icon-collections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    font-size: 30px;
+    
+}
+.icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 60%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,white,rgb(241, 6, 135),rgb(179, 52, 157),rgb(238, 7, 231));
+}
+.brands{
+    color: black;
+    font-size: 30px;
+}
+.icon:hover .brands{
+    color: white;
+    animation: rotate 3s ;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+#copyrigth{
+    text-align: center;
+    font-weight: 600;
+}
